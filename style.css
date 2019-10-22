@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.background-img {
+    height: 100vh;
+    background-size: cover;
+    filter: blur(px);
+    background: linear-gradient(to right bottom, #efff86, #ffcb00);
+
+}
+
+.header__text-box {
+    color: #ff5e50;
+    font-size: 1.6rem;
+    font-weight: bold;
+    vert-align: top;
+    display: inline-block;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
